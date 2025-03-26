@@ -2,6 +2,7 @@ import { ArrowRightCircle } from '@/components/HeroIcons'
 import LazyImage from '@/components/LazyImage'
 import { siteConfig } from '@/lib/config'
 import Link from 'next/link'
+import MenuGroupCard from './MenuGroupCard'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import CONFIG from '../config'
@@ -39,7 +40,7 @@ export function InfoCard(props) {
       <Announcement post={notice} style={{ color: 'white !important' }} />
 
         {/* 第三个按钮 */}
-        <MoreButton />
+     <MenuGroupCard {...props} />
       </div>
     </Card>
   )
