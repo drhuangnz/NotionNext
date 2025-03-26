@@ -18,8 +18,8 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享AI,STEM教育',
-  HEO_HERO_TITLE_2: '与认知感悟',
+  HEO_HERO_TITLE_1: 'AI模型工作,STEM教育',
+  HEO_HERO_TITLE_2: '生活感悟,认知精进',
   HEO_HERO_TITLE_3: 'DRHUANG.TOP',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
