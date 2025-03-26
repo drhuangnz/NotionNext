@@ -24,23 +24,18 @@ export function InfoCard(props) {
   const icon2 = siteConfig('HEO_INFO_CARD_ICON2', null, CONFIG)
   return (
     <Card className='wow fadeInUp bg-[#4f65f0] dark:bg-yellow-600 text-white flex flex-col w-90 overflow-hidden relative'>
-      {/* 信息卡牌第一行 */}
-      <div className='flex justify-between'>
-        {/* 问候语 */}
-        <GreetingsWords />
-        {/* 头像 */}
-        <div
-          className={`${isSlugPage ? 'absolute right-0 -mt-8 -mr-6 hover:opacity-0 hover:scale-150 blur' : 'cursor-pointer'} justify-center items-center flex dark:text-gray-100 transform transitaion-all duration-200`}>
-          <LazyImage
-            src={siteInfo?.icon}
-            className='rounded-full'
-            width={isSlugPage ? 100 : 28}
-            alt={siteConfig('AUTHOR')}
-          />
-        </div>
-      </div>
+            <div
+                className='justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer'
+                onClick={() => {
+                  router.push('/')
+                }}
+            >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <LazyImage src={siteInfo?.icon} className='rounded-full' width={120} alt={siteConfig('AUTHOR')} />
+            </div>
+            <div className='font-medium text-center text-xl pb-4'>{siteConfig('AUTHOR')}</div>
+            <div className='text-sm text-center'>{siteConfig('BIO')}</div>
 
-      <h2 className='text-3xl font-extrabold mt-3'>{siteConfig('AUTHOR')}</h2>
 
       {/* 公告栏 */}
       <Announcement post={notice} style={{ color: 'white !important' }} />
