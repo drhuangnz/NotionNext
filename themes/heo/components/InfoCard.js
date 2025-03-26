@@ -18,11 +18,7 @@ export function InfoCard(props) {
   const { className, siteInfo, notice } = props
   const router = useRouter()
   // 在文章详情页特殊处理
-  const isSlugPage = router.pathname.indexOf('/[prefix]') === 0
-  const url1 = siteConfig('HEO_INFO_CARD_URL1', null, CONFIG)
-  const icon1 = siteConfig('HEO_INFO_CARD_ICON1', null, CONFIG)
-  const url2 = siteConfig('HEO_INFO_CARD_URL2', null, CONFIG)
-  const icon2 = siteConfig('HEO_INFO_CARD_ICON2', null, CONFIG)
+
   return (
         <Card className={className}>
             <div
