@@ -1,4 +1,3 @@
-import { ArrowRightCircle } from '@/components/HeroIcons'
 import LazyImage from '@/components/LazyImage'
 import { siteConfig } from '@/lib/config'
 import Link from 'next/link'
@@ -8,6 +7,7 @@ import { useState } from 'react'
 import CONFIG from '../config'
 import Announcement from './Announcement'
 import Card from './Card'
+
 
 /**
  * 社交信息卡
