@@ -23,7 +23,7 @@ export function InfoCard(props) {
   const url2 = siteConfig('HEO_INFO_CARD_URL2', null, CONFIG)
   const icon2 = siteConfig('HEO_INFO_CARD_ICON2', null, CONFIG)
   return (
-    <Card className='wow fadeInUp bg-[#4f65f0] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
+    <Card className='wow fadeInUp bg-[#404040] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
       {/* 信息卡牌第一行 */}
       <div className='flex justify-between'>
         {/* 问候语 */}
@@ -48,20 +48,7 @@ export function InfoCard(props) {
       <div className='flex justify-between'>
         <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
           {/* 两个社交按钮 */}
-          {url1 && (
-            <div className='w-10 text-center bg-indigo-400 p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-              <Link href={url1}>
-                <i className={icon1} />
-              </Link>
-            </div>
-          )}
-          {url2 && (
-            <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-              <Link href={url2}>
-                <i className={icon2} />
-              </Link>
-            </div>
-          )}
+
         </div>
         {/* 第三个按钮 */}
         <MoreButton />
