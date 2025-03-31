@@ -1,3 +1,5 @@
+import FacebookPage from "@/components/FacebookPage"
+
 const CONFIG = {
   HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
   HEO_LOADING_COVER: true, // 页面加载的遮罩动画
@@ -116,7 +118,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
