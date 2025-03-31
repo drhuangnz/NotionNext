@@ -19,7 +19,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'AI模型工具,STEM教育',
-  HEO_HERO_TITLE_2: '认知精进,匠心手作DIY',
+  HEO_HERO_TITLE_2: '认知精进,DIY匠心手作',
   HEO_HERO_TITLE_3: 'DRHUANG.TOP',
   HEO_HERO_TITLE_4: 'A Life Journey',
   HEO_HERO_TITLE_5: 'Learning, Growing, Reflecting',
