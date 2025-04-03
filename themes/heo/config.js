@@ -25,7 +25,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'DRHUANG.TOP',
   HEO_HERO_TITLE_4: 'A Life Journey',
   HEO_HERO_TITLE_5: 'Learning, Growing, Reflecting',
-  HEO_HERO_TITLE_LINK: 'https://drhuang.top',
+  HEO_HERO_TITLE_LINK: '#',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
