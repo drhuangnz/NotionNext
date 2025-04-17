@@ -13,8 +13,8 @@ export function AnalyticsCard(props) {
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) // 将毫秒数差值转换为天数差值
   const postCountTitle = siteConfig('HEO_POST_COUNT_TITLE', null, CONFIG)
   const siteTimeTitle = siteConfig('HEO_SITE_TIME_TITLE', null, CONFIG)
-  const siteVisitTitle = siteConfig('HEO_SITE_VISIT_TITLE', null, CONFIG)
-  const siteVisitorTitle = siteConfig('HEO_SITE_VISITOR_TITLE', null, CONFIG)
+  const siteVisitTitle = siteConfig('HEO_SITE_VISIT_TITLE'+10000, null, CONFIG)
+  const siteVisitorTitle = siteConfig('HEO_SITE_VISITOR_TITLE'+3000, null, CONFIG)
 
   const { postCount } = props
   return <>
