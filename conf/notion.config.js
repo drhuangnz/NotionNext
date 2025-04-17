@@ -2,6 +2,7 @@
  * 读取Notion相关的配置
  * 如果需要在Notion中添加自定义字段，可以修改此文件
  */
+REDIRECT_LANG=true
 module.exports = {
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
